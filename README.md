@@ -1,27 +1,27 @@
 # My Project
-##initialize project
+## initialize project
 ```
 $ npm init
 ```
 
-##This utility will walk you through creating a package.json file.
+## This utility will walk you through creating a package.json file.
   It only covers the most common items, and tries to guess sensible defaults.
 
-##See `npm help init` for definitive documentation on these fields and exactly what they do.
+## See `npm help init` for definitive documentation on these fields and exactly what they do.
 
-##Use `npm install <pkg>` afterwards to install a package and save it as a dependency in the package.json file.
+## Use `npm install <pkg>` afterwards to install a package and save it as a dependency in the package.json file.
 
-    Press ^C at any time to quit.
-    package name: (my-project)
-    version: (1.0.0)
-    description: A sample Twilio project
-    entry point: (index.js)
-    test command:
-    git repository:
-    keywords:
-    author: Jane Doe
-    license: (ISC)
-    About to write to /Users/<your-username>/my-project/package.json:
+  Press ^C at any time to quit.
+  package name: (my-project)
+  version: (1.0.0)
+  description: A sample Twilio project
+  entry point: (index.js)
+  test command:
+  git repository:
+  keywords:
+  author: Jane Doe
+  license: (ISC)
+  About to write to /Users/<your-username>/my-project/package.json:
 
     {
       "name": "my-project",
@@ -36,7 +36,7 @@ $ npm init
     }
 
 
-##Is this OK? (yes) yes
+## Is this OK? (yes) yes
 
 
-##We can then try running our new Express application with the command ```node index.js```
+## We can then try running our new Express application with the command ```node index.js```
