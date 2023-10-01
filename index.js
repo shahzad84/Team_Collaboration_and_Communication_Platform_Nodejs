@@ -1,11 +1,15 @@
-const express = require('express');
+const express = require("express");
+const cors = require("cors"); //use for cors origin request
 const app = express();
-const port = 3000;
-
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+const PORT = process.env.PORT || 5000;
+require("dotenv").config(); //allow us to use enviroment variable in our node application
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded());
+app.get("/", (req, res) => {
+  res.send("Good World!");
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
